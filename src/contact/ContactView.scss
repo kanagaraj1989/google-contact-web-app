@@ -1,0 +1,45 @@
+.contact {
+  position: relative;
+  width: 136px;
+  height: 39px;
+  left: 189px;
+  top: 110px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #053ED1;
+  margin-bottom: -65px !important;
+}
+
+.contact-header {
+  position: relative;
+  width: 100%;
+  height: 78px;
+  left: 0px;
+  top: 14px;
+  background: linear-gradient(90.21deg, #053ED1 0%, #0F4EAC 100%);
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    width: 56px;
+    border-radius: 33px;
+    margin-top: 11px;
+    margin-left: 9px;
+    position: absolute;;
+  }
+  .user-name,
+  .user-email{
+    margin-left: 83px;
+    margin-top: 17px !important;
+    position: absolute;
+  }
+}
